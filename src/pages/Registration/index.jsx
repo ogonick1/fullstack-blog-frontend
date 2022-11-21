@@ -16,7 +16,7 @@ export const Registration = () => {
   const dispatch = useDispatch()
   const { register, handleSubmit, formState: { errors, isValid } } = useForm({
     defaultValues: {
-      fullName: 'ogonick ogonickovich',
+      fullName: '',
       email: 'test@email.com',
       password: ''
     },
